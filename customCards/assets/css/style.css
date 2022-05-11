@@ -2,11 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card{
+body{
+    background-color: saddlebrown;
+}
+
+.card-container{
+    padding-top:50px;
+    padding-bottom:100px;
+}
+
+.first-row, .second-row, .third-row{
     display:flex;
-    width:600px;
+    justify-content: center;
+    align-content: center;
+}
+
+.card-item{
+    margin-top:20px;
+    margin-left:20px;
+    border:2px solid black;
+    text-align:justify;
+    background-color:white;
+}
+
+.card-item h1{
+    margin-top:10px;
+    padding:10px;
+    color:rgb(199, 63, 63);
+}
+
+.card-item p{
+    margin-top:10px;
+    width:400px;
+    padding:10px;
 }
 
 .card-item img{
