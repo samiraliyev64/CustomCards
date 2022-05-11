@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    display:flex;
+    width:600px;
+}
+
+.card-item img{
+    width:400px;
+    height:300px;
+}
